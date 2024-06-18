@@ -508,65 +508,43 @@
 }
 /*End Blog Entries*/
 
-/* Contact Form */
-.form {
+/* Talk To Us */
+
+.talk-to-us {
     background-color: #F2F2FE;
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
-.form .box-head .inner-desc {
-    max-width: 450px;
+.talk-to-us .inner-content .inner-title {
+    font-size: 20px;
 }
 
-.form .inner-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.form .inner-wrap .inner-title {
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-.form .inner-wrap .inner-desc-one {
-    color: #777;
-    font-size: 14px;
-    letter-spacing: 0.6px;
-    padding: 0;
-    margin-bottom: 30px;
-    max-width: 260px;
-}
-
-.form .inner-wrap .inner-desc-two {
-    color: #777;
-    font-size: 14px;
-    letter-spacing: 0.6px;
-}
-
-.form .inner-wrap .contact-form input,
-.form .inner-wrap .contact-form textarea {
+.talk-to-us .inner-form input, .talk-to-us .inner-form textarea {
+    border-radius: 25px;
+    width: 100%;
     margin-bottom: 15px;
-    padding: 10px 15px;
-    border-radius: 28px;
-    outline: 0;
-    border: 0;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    outline: none;
 }
 
-.form .inner-wrap .contact-form .contact-form-input {
-    display: flex;
+.talk-to-us .inner-form input:focus, .talk-to-us .inner-form textarea:focus {
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
 }
 
-.form .inner-wrap .contact-form input {
-    width: 50%;
+.talk-to-us .inner-form input {
     height: 50px;
 }
 
-.form .inner-wrap .contact-form textarea {
-    width: 100%;
+.talk-to-us .inner-form textarea {
     height: 150px;
 }
-/* End Contact Form */
+
+
+
+/*End Talk To Us */
+
 
 /* Footer */
 .footer {

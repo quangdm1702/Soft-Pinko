@@ -32,6 +32,7 @@ a:hover {
     font-weight: 500;
     transition: all 0.3s ease 0s;
     cursor: pointer;
+    border: none;
 }
 
 .button-one {
