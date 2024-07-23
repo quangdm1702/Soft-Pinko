@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --color-one:#8261EE;
+    --color-two:#FF589E;
+    --color-text:#1e1e1e;
+    --font:"Raleway", sans-serif;
+}
+
+body {
+    color: var(--color-text);
+    line-height: 1.6;
+    font-family: var(--font);
+}
+
+a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-two);
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 45px;
+    background-color: #fff;
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border: none;
+
+    &--one {
+        background-color: var(--color-one);
+        color: #fff;
+
+        &:hover {
+            background-color: var(--color-two);
+            color: #fff;
+        }
+    }
+
+    &--two {
+        background-color: var(--color-two);
+        color: #fff;
+
+        &:hover {
+            background-color: var(--color-one);
+            color: #fff;
+        }
+    }
+}
+/* End Buttons */
+
+/* Box Head */
+.box-head {
+    text-align: center;
+    margin-bottom: 30px;
+
+    &__title {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    
+    &__desc {
+        font-size: 14px;
+        max-width: 600px;
+        margin: auto;
+    }
+}
+/*End Box Head */
